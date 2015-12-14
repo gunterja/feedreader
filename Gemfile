@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'awesome_print'
 gem 'feedjira'
 gem 'twitter-bootstrap-rails'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

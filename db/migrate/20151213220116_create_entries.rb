@@ -6,7 +6,7 @@ class CreateEntries < ActiveRecord::Migration
       t.text :content
       t.string :url
       t.string :author
-      t.string :feed_id
+      t.integer :feed_id
 
       t.timestamps null: false
     end
